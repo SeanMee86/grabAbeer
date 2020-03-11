@@ -241,7 +241,6 @@ function getDirections(origin, destination) {
 }
 
 async function submitBeerSelection(){
-    debugger;
     if (locationObj.lat === null){
         showAlert('error','Please enter a location before moving on.');
     } else {
@@ -264,8 +263,6 @@ async function axiosToYelp (keywords, location) {
             'Access-Control-Allow-Origin': '*'
         }
     });
-
-    console.log(res);
 
     yelp = res;
     yelp.coords = [];
