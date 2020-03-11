@@ -146,7 +146,7 @@ function createMarker(response) {
             '<h1>' + contactInfo[i].name + '</h1>' +
             '<p>' + contactInfo[i].address + '</p>' +
             '<p>' + contactInfo[i].city + ', ' + contactInfo[i].state + ' ' + contactInfo[i].zip +'</p>' +
-            '<p>' + contactInfo[i].phone + '</p>' +
+            '<p>(' + contactInfo[i].phone + '</p>' +
             '<a target="_blank" href=' + contactInfo[i].url + '> reviews </a>' +
             '<a class="directions">get directions</a>' +
             '</div>'
